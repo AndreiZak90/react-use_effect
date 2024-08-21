@@ -1,0 +1,47 @@
+#root {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.list_box {
+  max-width: 400px;
+}
+
+.item_list {
+  font-size: 25px;
+  border: 1px solid whitesmoke;
+  padding: 10px 30px;
+  margin: 3px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.item_list:hover {
+  background: #0d3ad9;
+}
+
+.details_card_user {
+  max-width: 300px;
+  background: #b2c3ff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card_img {
+  width: 500px;
+}
+
+.card_info,
+.card_name {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+}
+
+.card_name {
+  color: black;
+}
