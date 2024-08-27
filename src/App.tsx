@@ -13,7 +13,7 @@ interface propNumb {
 function App() {
   const [listUsers, setListUsers] = useState([]);
   const [user, setUser] = useState();
-  const [elem, setElem] = useState();
+  const [elem, setElem] = useState<number>();
 
   const getData = async () => {
     fetch(usersURL)
