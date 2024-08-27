@@ -1,14 +1,16 @@
 interface usProp {
-  us: {
-    id: number;
-    name: string;
-    avatar: string;
-    details: {
-      city: string;
-      company: string;
-      position: string;
-    };
-  };
+  us:
+    | {
+        id: number;
+        name: string;
+        avatar: string;
+        details: {
+          city: string;
+          company: string;
+          position: string;
+        };
+      }
+    | undefined;
 }
 
 export default function Details({ us }: usProp) {
